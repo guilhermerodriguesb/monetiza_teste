@@ -1,0 +1,69 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos da caixa de notícia */
+.news-box {
+    background-color: white;
+    width: 300px; /* Largura semelhante a uma notícia da Globo */
+    min-height: 300px;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo da imagem da notícia */
+.news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Estilo do título da notícia */
+.news-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilo da descrição da notícia */
+.news-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+a {
+    color: black; /* Cor do texto preta */
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    transition: color 0.3s ease; /* Efeito suave de transição na cor */
+}
+
+/* Estilo para o hover */
+a:hover {
+    color: rgb(17, 21, 247); /* Muda a cor para cinza quando passar o mouse */
+}
